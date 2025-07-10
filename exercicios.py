@@ -4,8 +4,9 @@
 
 # 1. Tabuada do 5
 # Imprima a tabuada do número 5 usando for.
-for i in range(1,5):
-    print(i)
+
+for numero in range(11):
+     print(5 * numero)
 
 
 # 2. Soma de 1 a 100
