@@ -5,21 +5,37 @@
 # 1. Tabuada do 5
 # Imprima a tabuada do número 5 usando for.
 
-for numero in range(11):
-     print(5 * numero)
+# for numero in range(11):
+#       print(f"5 x {numero} = {5 * numero}")
 
 
 # 2. Soma de 1 a 100
 # Use for para somar todos os números de 1 até 100.
-
+# soma = 0
+# for i in range(1, 101):
+#       soma += i
+# print("soma de 1 a 100:", soma)
 
 ## Intermediário
 
 # 3. Média de notas
 # Dada a lista [7.5, 8, 9.2, 6.8], use for para calcular a média.
 
+# lista = [7.5, 8, 9.2, 6.8, 10]
+# soma = 0
+# for i in lista:
+#     soma += i
+# media = soma / len(lista)
+# print(f"A média das notas dos alunos é:", media)
+
 # 4. Contar vogais
 # Peça uma palavra ao usuário e conte quantas vogais ela tem usando for.
+
+palavra = input("Insira uma palavra: ")
+
+for i in palavra:
+     vogais = ["a", "e", "i", "o", "u"]
+print(f"A palavra tem:", len(i), "vogais")
 
 
 ## Avançado
