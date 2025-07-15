@@ -34,8 +34,9 @@
 palavra = input("Insira uma palavra: ")
 
 for i in palavra:
-     vogais = ["a", "e", "i", "o", "u"]
-print(f"A palavra tem:", len(i), "vogais")
+     vogais = 'aeiou'
+     conta_vogal = vogais.count(i)
+print(f"A palavra tem:", conta_vogal, "vogais")
 
 
 ## Avançado
