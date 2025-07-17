@@ -31,12 +31,14 @@
 # 4. Contar vogais
 # Peça uma palavra ao usuário e conte quantas vogais ela tem usando for.
 
-palavra = input("Insira uma palavra: ")
+# palavra = input("Insira uma palavra: ").lower()
+# vogais = "aeiou"
+# quantidade = 0
 
-for i in palavra:
-     vogais = 'aeiou'
-     conta_vogal = vogais.count(i)
-print(f"A palavra tem:", conta_vogal, "vogais")
+# for letra in palavra:
+#      if letra in vogais:
+#           quantidade += 1
+# print(f"A palavra tem:", quantidade, "vogais")
 
 
 ## Avançado
@@ -51,13 +53,31 @@ print(f"A palavra tem:", conta_vogal, "vogais")
 ### WHILE
 
 ## Iniciante
+# i = 1
+# while i < 10:
+#     print(i)
+#     i += 1
+
+# print ("terminou")
+# print(i)
 
 # 1. Contador de 1 a 10
 # Imprima os números de 1 a 10 usando while.
 
+# i = 1
+# while i < 11:
+#      print(i)
+#      i += 1
+# print("terminou")
+
+
 # 2. Senha correta
 # Peça ao usuário para digitar uma senha até ele acertar a senha correta (ex: "admin123").
+senha = ""
 
+while senha != "gui":
+     senha = input("Digite a senha correta: ")
+print("Acesso permitido!")
 
 ## Intermediário
 
